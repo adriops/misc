@@ -19,7 +19,7 @@ Examples of use in crontab:
 10 00 * * 7 bash /opt/scripts/bash/backups.sh -f /some/directory/weekly-backups -r 20 -t /mnt/external/weekly-backups >> /var/log/weekly-backups.log 2>&1
 
 # Monthly backups (every 3th at 00:15, copy backup files to /some/directory/monthly-backups, delete older files than 90 days and redirect output to specific log file)
-15 00 * 3 * bash /opt/scripts/bash/backups.sh -f /some/directory/monthly-backups -r 90 -t /mnt/external/monthly-backups >> /var/log/monthly-backups.log 2>&1
+15 00 3 * * bash /opt/scripts/bash/backups.sh -f /some/directory/monthly-backups -r 90 -t /mnt/external/monthly-backups >> /var/log/monthly-backups.log 2>&1
 ```
 
 >**IMPORTANT**
