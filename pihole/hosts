@@ -1,0 +1,6 @@
+##
+## pihole blacklist hosts ads
+##
+
+0.0.0.0 avengeradblocker.com
+0.0.0.0 getflowads.net

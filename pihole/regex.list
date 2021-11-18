@@ -1,0 +1,5 @@
+##
+## pihole blacklist regex ads
+##
+
+.xyz\/?$
